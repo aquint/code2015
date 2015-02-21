@@ -10,20 +10,10 @@ angular.module('schoolPicker', [
 ])
 
 .config(['$stateProvider', '$urlRouterProvider',function($stateProvider, $urlRouterProvider){
-	$stateProvider.state('', {
+	$stateProvider.state('home', {
 		url: '/',
-		controller: '',
-		templateUrl: ''
-	})
-	.state('', {
-		url: '/',
-		controller: '',
-		templateUrl: ''
-	})
-	.state('', {
-		url: '/',
-		controller: '',
-		templateUrl: ''
+		controller: 'HomeCtrl',
+		templateUrl: 'home.html'
 	});
-	$urlRouterProvider.otherwise('');
+	$urlRouterProvider.otherwise('/');
 }]);
