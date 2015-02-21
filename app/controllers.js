@@ -1,4 +1,6 @@
-angularModule.controller('HomeCtrl', function ($scope, $http) {
+angular.module('schoolPicker.controllers', [])
+
+.controller('HomeCtrl', function ($scope, $http) {
     $scope.selectedTestAccount = null;
     $scope.testAccounts = [];
 
