@@ -4,6 +4,7 @@ var favicon = require('serve-favicon');
 var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
+var request = require('request');
 
 var routes = require('./routes/index');
 var users = require('./routes/users');
@@ -22,8 +23,16 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
-app.use('/', routes);
-app.use('/users', users);
+
+app.get('/', function(req, res, next){
+    request.get('http://api.glassdoor.com/api/api.htm?t.p=30388&t.k=jpWWyz7UblO&userip=0.0.0.0&useragent=&format=json&v=1&action=jobs-stats&returnStates=true&admLevelRequested=1', function (err, res, body) {
+    if (!err) {
+        var resultsObj = JSON.parse(body);
+        //Just an example of how to access properties:
+        console.log(resultsObj);
+    }
+    });
+});
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
