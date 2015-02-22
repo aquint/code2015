@@ -1,12 +1,314 @@
-<select ng-model="selected" ng-options="obj.program for obj in programs track by obj.id">
-    <option value="">Select Program</option>
-</select>
-<ul>
-	Province
-<li ng-repeat="state in jobs.response.states">
-	{{state.name}}
-	<ul>
-		<li>Number of Jobs: {{state.numJobs}}</li>
-	</ul>
-</li>
-</ul>
+<div class="container-fluid">
+	<div class="hero">
+		<img src="images/SELECTALLOWFIND3.png">
+	</div>
+</div>
+<!-- <select ng-model="selected" ng-options="obj.program for obj in programs track by obj.id">
+	<option value="">Select Program</option>
+</select> -->
+<!-- content to be placed inside <body>…</body> -->
+<div class="container-fluid">
+	<div class="row options">
+		<div class="col-md-3">
+			<a ui-sref="results({jobId: 1})">
+			<div>
+				<div class="img-container">
+					<img src="images/AccountingFinance.png">
+				</div>
+				<div class="text-container">
+					<h3>Accounting and Finance</h3>
+					<a class="custom-btn" href="">Explore</a>
+				</div>
+			</div>
+		</a>
+		</div>
+		<div class="col-md-3">
+			<a ui-sref="results({jobId: 2})">
+			<div>
+				<div class="img-container">
+					<img src="images/Administrative.png">
+				</div>
+				<div class="text-container">
+					<h3>Administration</h3>
+				</div>
+			</div>
+		</a>
+		</div>
+		<div class="col-md-3">
+			<a ui-sref="results({jobId: 3})">
+			<div>
+				<div class="img-container">
+					<img src="images/Analyst.png">
+				</div>
+				<div class="text-container">
+					<h3>Analytics</h3>
+				</div>
+			</div>
+		</a>
+		</div>
+		<div class="col-md-3">
+			<a ui-sref="results({jobId: 4})">
+			<div>
+				<div class="img-container">
+					<img src="images/ArchitectureDrafting.png">
+				</div>
+				<div class="text-container">
+					<h3>Architecture</h3>
+				</div>
+			</div>
+		</a>
+		</div>
+		<div class="col-md-3">
+			<a ui-sref="results({jobId: 5})">
+			<div>
+				<div class="img-container">
+					<img src="images/ArtDesignEntertainment.png">
+				</div>
+				<div class="text-container">
+					<h3>Art, Design and Entertainment</h3>
+				</div>
+			</div>
+		</a>
+		</div>
+		<div class="col-md-3">
+			<a ui-sref="results({jobId: 6})">
+			<div>
+				<div class="img-container">
+					<img src="images/BankingLoanInsurance.png">
+				</div>
+				<div class="text-container">
+					<h3>Banking and Insurance</h3>
+				</div>
+			</div>
+		</a>
+		</div>
+		<div class="col-md-3">
+			<a ui-sref="results({jobId: 7})">
+			<div>
+				<div class="img-container">
+					<img src="images/BeautyWellness.png">
+				</div>
+				<div class="text-container">
+					<h3>Beauty and Wellness</h3>
+				</div>
+			</div>
+		</a>
+		</div>
+		<div class="col-md-3">
+			<a ui-sref="results({jobId: 8})">
+			<div>
+				<div class="img-container">
+					<img src="images/BusinessDevelopmentConsulting.png">
+				</div>
+				<div class="text-container">
+					<h3>Business</h3>
+				</div>
+			</div>
+		</a>
+		</div>
+		<div class="col-md-3">
+			<a ui-sref="results({jobId: 9})">
+			<div>
+				<div class="img-container">
+					<img src="images/Education.png">
+				</div>
+				<div class="text-container">
+					<h3>Education</h3>
+				</div>
+			</div>
+		</a>
+		</div>
+		<div class="col-md-3">
+			<a ui-sref="results({jobId: 10})">
+			<div>
+				<div class="img-container">
+					<img src="images/EngineeringNonSoftware.png">
+				</div>
+				<div class="text-container">
+					<h3>Engineering</h3>
+				</div>
+			</div>
+		</a>
+		</div>
+		<div class="col-md-3">
+			<a ui-sref="results({jobId: 12})">
+			<div>
+				<div class="img-container">
+					<img src="images/Hospitality.png">
+				</div>
+				<div class="text-container">
+					<h3>Hospitality</h3>
+				</div>
+			</div>
+		</a>
+		</div>
+		<div class="col-md-3">
+			<a ui-sref="results({jobId: 13})">
+			<div>
+				<div class="img-container">
+					<img src="images/HumanResources.png">
+				</div>
+				<div class="text-container">
+					<h3>Human Resources</h3>
+				</div>
+			</div>
+		</a>
+		</div>
+		<div class="col-md-3">
+			<a ui-sref="results({jobId: 15})">
+			<div>
+				<div class="img-container">
+					<img src="images/Legal.png">
+				</div>
+				<div class="text-container">
+					<h3>Legal</h3>
+				</div>
+			</div>
+		</a>
+		</div>
+		<div class="col-md-3">
+			<a ui-sref="results({jobId: 17})">
+			<div>
+				<div class="img-container">
+					<img src="images/MarketingAdvertisingPR.png">
+				</div>
+				<div class="text-container">
+					<h3>Marketing, Advertising and PR</h3>
+				</div>
+			</div>
+		</a>
+		</div>
+		<div class="col-md-3">
+			<a ui-sref="results({jobId: 18})">
+			<div>
+				<div class="img-container">
+					<img src="images/MedicalHealthcare.png">
+				</div>
+				<div class="text-container">
+					<h3>Medicine and Healthcare</h3>
+				</div>
+			</div>
+		</a>
+		</div>
+		<div class="col-md-3">
+			<a ui-sref="results({jobId: 19})">
+			<div>
+				<div class="img-container">
+					<img src="images/NonProfitProjectManagement.png">
+				</div>
+				<div class="text-container">
+					<h3>Non Profit Project Managment</h3>
+				</div>
+			</div>
+		</a>
+		</div>
+		<div class="col-md-3">
+			<a ui-sref="results({jobId: 21})">
+			<div>
+				<div class="img-container">
+					<img src="images/RealEstate.png">
+				</div>
+				<div class="text-container">
+					<h3>Real Estate</h3>
+				</div>
+			</div>
+		</a>
+		</div>
+		<div class="col-md-3">
+			<a ui-sref="results({jobId: 24})">
+			<div>
+				<div class="img-container">
+					<img src="images/SalesCustomerCare.png">
+				</div>
+				<div class="text-container">
+					<h3>Sales and Customer Care</h3>
+				</div>
+			</div>
+		</a>
+		</div>
+		<div class="col-md-3">
+			<a ui-sref="results({jobId: 25})">
+			<div>
+				<div class="img-container">
+					<img src="images/ScienceResearch.png">
+				</div>
+				<div class="text-container">
+					<h3>Science and Research</h3>
+				</div>
+			</div>
+		</a>
+		</div>
+		<div class="col-md-3">
+			<a ui-sref="results({jobId:26})">
+			<div>
+				<div class="img-container">
+					<img src="images/SecurityLawEnforcement.png">
+				</div>
+				<div class="text-container">
+					<h3>Security and Law Enforcement</h3>
+				</div>
+			</div>
+		</a>
+		</div>
+		<div class="col-md-3">
+			<a ui-sref="results({jobId: 27})">
+			<div>
+				<div class="img-container">
+					<img src="images/SeniorManagement.png">
+				</div>
+				<div class="text-container">
+					<h3>Senior Management</h3>
+				</div>
+			</div>
+		</a>
+		</div>
+		<div class="col-md-3">
+			<a ui-sref="results({jobId: 29})">
+			<div>
+				<div class="img-container">
+					<img src="images/SoftwareDevelopmentIT.png">
+				</div>
+				<div class="text-container">
+					<h3>Software Development</h3>
+				</div>
+			</div>
+		</a>
+		</div>
+		<div class="col-md-3">
+			<a ui-sref="results({jobId: 30})">
+			<div>
+				<div class="img-container">
+					<img src="images/SportsFitness.png">
+				</div>
+				<div class="text-container">
+					<h3>Sports and Fitness</h3>
+				</div>
+			</div>
+		</a>
+		</div>
+		<div class="col-md-3">
+			<a ui-sref="results({jobId: 31})">
+			<div>
+				<div class="img-container">
+					<img src="images/TravelTransportation.png">
+				</div>
+				<div class="text-container">
+					<h3>Travel and Transportation</h3>
+				</div>
+			</div>
+		</a>
+		</div>
+		<div class="col-md-3">
+			<a ui-sref="results({jobId: 32})">
+			<div>
+				<div class="img-container">
+					<img src="images/WritingEditingPublishing.png">
+				</div>
+				<div class="text-container">
+					<h3>Writing, Editing and Publishing</h3>
+				</div>
+			</div>
+		</a>
+		</div>
+	</div>
+</div>

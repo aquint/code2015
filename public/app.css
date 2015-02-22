@@ -1,30 +1,57 @@
-/* app css stylesheet */
-
-.menu {
-  list-style: none;
-  border-bottom: 0.1em solid black;
-  margin-bottom: 2em;
-  padding: 0 0 0.5em;
+body{
+  font-family: "Open Sans";
 }
-
-.menu:before {
-  content: "[";
+.options img{
+  width: 200px;
+  display: block;
+  margin: 0 auto;
+  -webkit-transition: .5s ease-in-out all;
+    -moz-transition:.5s ease-in-out all;
+    -o-transition:.5s ease-in-out all;
+    transition:.5s ease-in-out all;
 }
-
-.menu:after {
-  content: "]";
+.options>.col-md-3>a>div{
+  height: 300px;
 }
-
-.menu > li {
-  display: inline;
+.options>.col-md-3>a>div h3{
+  text-align: center;
 }
-
-.menu > li:before {
-  content: "|";
-  padding-right: 0.3em;
+.col-md-3{
+  border: 1px solid #e5e5e5;
 }
-
-.menu > li:nth-child(1):before {
-  content: "";
-  padding: 0;
+a:hover{
+  text-decoration: none;
+}
+a:hover img{
+  transform: scale(1.1);
+}
+a:hover img{
+  
+}
+.hero img{
+  width: 500px;
+}
+.custom-btn {
+  display: block;
+  height: 35px;
+  max-width: 200px;
+  background-color: gray;
+  color: #ffffff;
+  text-align: center;
+  line-height: 35px;
+  text-transform: uppercase;
+  -webkit-transition: all 400ms;
+  -moz-transition: all 400ms;
+  transition: 400ms;
+  box-shadow: 4px 4px 0px rgba(0,0,0, .1);
+  margin-bottom: 10px;
+  margin-right: auto;
+  margin-left: auto;
+  opacity: 0;
+}
+.text-container{
+  -webkit-transition: .5s ease-in-out all;
+    -moz-transition:.5s ease-in-out all;
+    -o-transition:.5s ease-in-out all;
+    transition:.5s ease-in-out all;
 }

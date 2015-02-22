@@ -20,6 +20,10 @@ angular.module('schoolPicker', [
 		url: '/',
 		controller: 'HomeCtrl',
 		templateUrl: 'views/home.html'
-	});
+	}).state('results', {
+    url: '/results/:jobId',
+    controller: 'ResultsCtrl',
+    templateUrl: 'views/results.html'
+  });
 	$urlRouterProvider.otherwise('/');
-}])
+}]);
