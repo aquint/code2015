@@ -23,7 +23,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.get('/api/glassdoor/:jobId', function(req, res, next){
     console.log(req.params.jobId);
-    request.get('http://api.glassdoor.com/api/api.htm?t.p=30388&t.k=jpWWyz7UblO&userip=0.0.0.0&useragent=&format=json&v=1&action=jobs-stats&country=Canada&returnStates=true&admLevelRequested=1&jc='+ req.params.jobId, function (err, response, body) {
+    request.get('http://api.glassdoor.com/api/api.htm?t.p=30388&t.k=jpWWyz7UblO&userip=0.0.0.0&useragent=&format=json&v=1&action=jobs-stats&country=Canada&returnStates=true&admLevelRequested=1&fromAge=365&jc='+ req.params.jobId, function (err, response, body) {
     if(err){ 
         console.log('error');
         return next(err);

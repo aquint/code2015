@@ -1,0 +1,737 @@
+[
+  {
+    "City":"Newfoundland and Labrador",
+    "Program":"Personal improvement and leisure",
+    "num":"15"
+  },
+  {
+    "City":"Newfoundland and Labrador",
+    "Program":"Education",
+    "num":"801"
+  },
+  {
+    "City":"Newfoundland and Labrador",
+    "Program":"Visual and performing arts, and communications technologies",
+    "num":"159"
+  },
+  {
+    "City":"Newfoundland and Labrador",
+    "Program":"Humanities",
+    "num":"276"
+  },
+  {
+    "City":"Newfoundland and Labrador",
+    "Program":"Social and behavioural sciences and law",
+    "num":"501"
+  },
+  {
+    "City":"Newfoundland and Labrador",
+    "Program":"Business, management and public administration",
+    "num":"960"
+  },
+  {
+    "City":"Newfoundland and Labrador",
+    "Program":"Physical and life sciences and technologies",
+    "num":"351"
+  },
+  {
+    "City":"Newfoundland and Labrador",
+    "Program":"Mathematics, computer and information sciences",
+    "num":"162"
+  },
+  {
+    "City":"Newfoundland and Labrador",
+    "Program":"Architecture, engineering and related technologies",
+    "num":"1551"
+  },
+  {
+    "City":"Newfoundland and Labrador",
+    "Program":"Agriculture, natural resources and conservation",
+    "num":"117"
+  },
+  {
+    "City":"Newfoundland and Labrador",
+    "Program":"Health and related fields",
+    "num":"801"
+  },
+  {
+    "City":"Newfoundland and Labrador",
+    "Program":"Personal, protective and transportation services",
+    "num":"315"
+  },
+  {
+    "City":"Newfoundland and Labrador",
+    "Program":"Other instructional programs",
+    "num":"471"
+  },
+  {
+    "City":"City",
+    "Program":"Program",
+    "num":"num"
+  },
+  {
+    "City":"Prince Edward Island",
+    "Program":"Education",
+    "num":"129"
+  },
+  {
+    "City":"Prince Edward Island",
+    "Program":"Visual and performing arts, and communications technologies",
+    "num":"36"
+  },
+  {
+    "City":"Prince Edward Island",
+    "Program":"Humanities",
+    "num":"78"
+  },
+  {
+    "City":"Prince Edward Island",
+    "Program":"Social and behavioural sciences and law",
+    "num":"213"
+  },
+  {
+    "City":"Prince Edward Island",
+    "Program":"Business, management and public administration",
+    "num":"522"
+  },
+  {
+    "City":"Prince Edward Island",
+    "Program":"Physical and life sciences and technologies",
+    "num":"105"
+  },
+  {
+    "City":"Prince Edward Island",
+    "Program":"Mathematics, computer and information sciences",
+    "num":"117"
+  },
+  {
+    "City":"Prince Edward Island",
+    "Program":"Architecture, engineering and related technologies",
+    "num":"258"
+  },
+  {
+    "City":"Prince Edward Island",
+    "Program":"Agriculture, natural resources and conservation",
+    "num":"42"
+  },
+  {
+    "City":"Prince Edward Island",
+    "Program":"Health and related fields",
+    "num":"414"
+  },
+  {
+    "City":"Prince Edward Island",
+    "Program":"Personal, protective and transportation services",
+    "num":"345"
+  },
+  {
+    "City":"City",
+    "Program":"Program",
+    "num":"num"
+  },
+  {
+    "City":"Nova Scotia",
+    "Program":"Education",
+    "num":"1260"
+  },
+  {
+    "City":"Nova Scotia",
+    "Program":"Visual and performing arts, and communications technologies",
+    "num":"417"
+  },
+  {
+    "City":"Nova Scotia",
+    "Program":"Humanities",
+    "num":"747"
+  },
+  {
+    "City":"Nova Scotia",
+    "Program":"Social and behavioural sciences and law",
+    "num":"1866"
+  },
+  {
+    "City":"Nova Scotia",
+    "Program":"Business, management and public administration",
+    "num":"3099"
+  },
+  {
+    "City":"Nova Scotia",
+    "Program":"Physical and life sciences and technologies",
+    "num":"909"
+  },
+  {
+    "City":"Nova Scotia",
+    "Program":"Mathematics, computer and information sciences",
+    "num":"390"
+  },
+  {
+    "City":"Nova Scotia",
+    "Program":"Architecture, engineering and related technologies",
+    "num":"2448"
+  },
+  {
+    "City":"Nova Scotia",
+    "Program":"Agriculture, natural resources and conservation",
+    "num":"357"
+  },
+  {
+    "City":"Nova Scotia",
+    "Program":"Health and related fields",
+    "num":"2205"
+  },
+  {
+    "City":"Nova Scotia",
+    "Program":"Personal, protective and transportation services",
+    "num":"282"
+  },
+  {
+    "City":"Nova Scotia",
+    "Program":"Other instructional programs",
+    "num":"828"
+  },
+  {
+    "City":"City",
+    "Program":"Program",
+    "num":"num"
+  },
+  {
+    "City":"New Brunswick",
+    "Program":"Education",
+    "num":"813"
+  },
+  {
+    "City":"New Brunswick",
+    "Program":"Visual and performing arts, and communications technologies",
+    "num":"294"
+  },
+  {
+    "City":"New Brunswick",
+    "Program":"Humanities",
+    "num":"531"
+  },
+  {
+    "City":"New Brunswick",
+    "Program":"Social and behavioural sciences and law",
+    "num":"1023"
+  },
+  {
+    "City":"New Brunswick",
+    "Program":"Business, management and public administration",
+    "num":"1734"
+  },
+  {
+    "City":"New Brunswick",
+    "Program":"Physical and life sciences and technologies",
+    "num":"321"
+  },
+  {
+    "City":"New Brunswick",
+    "Program":"Mathematics, computer and information sciences",
+    "num":"228"
+  },
+  {
+    "City":"New Brunswick",
+    "Program":"Architecture, engineering and related technologies",
+    "num":"1512"
+  },
+  {
+    "City":"New Brunswick",
+    "Program":"Agriculture, natural resources and conservation",
+    "num":"147"
+  },
+  {
+    "City":"New Brunswick",
+    "Program":"Health and related fields",
+    "num":"1410"
+  },
+  {
+    "City":"New Brunswick",
+    "Program":"Personal, protective and transportation services",
+    "num":"237"
+  },
+  {
+    "City":"New Brunswick",
+    "Program":"Other instructional programs",
+    "num":"198"
+  },
+  {
+    "City":"City",
+    "Program":"Program",
+    "num":"num"
+  },
+  {
+    "City":"Quebec",
+    "Program":"Education",
+    "num":"7305"
+  },
+  {
+    "City":"Quebec",
+    "Program":"Visual and performing arts, and communications technologies",
+    "num":"5565"
+  },
+  {
+    "City":"Quebec",
+    "Program":"Humanities",
+    "num":"30537"
+  },
+  {
+    "City":"Quebec",
+    "Program":"Social and behavioural sciences and law",
+    "num":"14817"
+  },
+  {
+    "City":"Quebec",
+    "Program":"Business, management and public administration",
+    "num":"31239"
+  },
+  {
+    "City":"Quebec",
+    "Program":"Physical and life sciences and technologies",
+    "num":"3855"
+  },
+  {
+    "City":"Quebec",
+    "Program":"Mathematics, computer and information sciences",
+    "num":"2904"
+  },
+  {
+    "City":"Quebec",
+    "Program":"Architecture, engineering and related technologies",
+    "num":"9480"
+  },
+  {
+    "City":"Quebec",
+    "Program":"Agriculture, natural resources and conservation",
+    "num":"1461"
+  },
+  {
+    "City":"Quebec",
+    "Program":"Health and related fields",
+    "num":"14427"
+  },
+  {
+    "City":"Quebec",
+    "Program":"Personal, protective and transportation services",
+    "num":"2109"
+  },
+  {
+    "City":"Quebec",
+    "Program":"Other instructional programs",
+    "num":"3381"
+  },
+  {
+    "City":"City",
+    "Program":"Program",
+    "num":"num"
+  },
+  {
+    "City":"Ontario",
+    "Program":"Personal improvement and leisure",
+    "num":"780"
+  },
+  {
+    "City":"Ontario",
+    "Program":"Education",
+    "num":"12786"
+  },
+  {
+    "City":"Ontario",
+    "Program":"Visual and performing arts, and communications technologies",
+    "num":"9177"
+  },
+  {
+    "City":"Ontario",
+    "Program":"Humanities",
+    "num":"14283"
+  },
+  {
+    "City":"Ontario",
+    "Program":"Social and behavioural sciences and law",
+    "num":"35433"
+  },
+  {
+    "City":"Ontario",
+    "Program":"Business, management and public administration",
+    "num":"41460"
+  },
+  {
+    "City":"Ontario",
+    "Program":"Physical and life sciences and technologies",
+    "num":"10251"
+  },
+  {
+    "City":"Ontario",
+    "Program":"Mathematics, computer and information sciences",
+    "num":"6030"
+  },
+  {
+    "City":"Ontario",
+    "Program":"Architecture, engineering and related technologies",
+    "num":"21765"
+  },
+  {
+    "City":"Ontario",
+    "Program":"Agriculture, natural resources and conservation",
+    "num":"3207"
+  },
+  {
+    "City":"Ontario",
+    "Program":"Health and related fields",
+    "num":"27330"
+  },
+  {
+    "City":"Ontario",
+    "Program":"Personal, protective and transportation services",
+    "num":"9231"
+  },
+  {
+    "City":"Ontario",
+    "Program":"Other instructional programs",
+    "num":"1443"
+  },
+  {
+    "City":"City",
+    "Program":"Program",
+    "num":"num"
+  },
+  {
+    "City":"Manitoba",
+    "Program":"Personal improvement and leisure",
+    "num":"129"
+  },
+  {
+    "City":"Manitoba",
+    "Program":"Education",
+    "num":"1224"
+  },
+  {
+    "City":"Manitoba",
+    "Program":"Visual and performing arts, and communications technologies",
+    "num":"393"
+  },
+  {
+    "City":"Manitoba",
+    "Program":"Humanities",
+    "num":"1245"
+  },
+  {
+    "City":"Manitoba",
+    "Program":"Social and behavioural sciences and law",
+    "num":"1833"
+  },
+  {
+    "City":"Manitoba",
+    "Program":"Business, management and public administration",
+    "num":"1686"
+  },
+  {
+    "City":"Manitoba",
+    "Program":"Physical and life sciences and technologies",
+    "num":"702"
+  },
+  {
+    "City":"Manitoba",
+    "Program":"Mathematics, computer and information sciences",
+    "num":"300"
+  },
+  {
+    "City":"Manitoba",
+    "Program":"Architecture, engineering and related technologies",
+    "num":"1683"
+  },
+  {
+    "City":"Manitoba",
+    "Program":"Agriculture, natural resources and conservation",
+    "num":"360"
+  },
+  {
+    "City":"Manitoba",
+    "Program":"Health and related fields",
+    "num":"1962"
+  },
+  {
+    "City":"Manitoba",
+    "Program":"Personal, protective and transportation services",
+    "num":"255"
+  },
+  {
+    "City":"Manitoba",
+    "Program":"Other instructional programs",
+    "num":"378"
+  },
+  {
+    "City":"City",
+    "Program":"Program",
+    "num":"num"
+  },
+  {
+    "City":"Saskatchewan",
+    "Program":"Education",
+    "num":"915"
+  },
+  {
+    "City":"Saskatchewan",
+    "Program":"Visual and performing arts, and communications technologies",
+    "num":"147"
+  },
+  {
+    "City":"Saskatchewan",
+    "Program":"Humanities",
+    "num":"381"
+  },
+  {
+    "City":"Saskatchewan",
+    "Program":"Social and behavioural sciences and law",
+    "num":"963"
+  },
+  {
+    "City":"Saskatchewan",
+    "Program":"Business, management and public administration",
+    "num":"1902"
+  },
+  {
+    "City":"Saskatchewan",
+    "Program":"Physical and life sciences and technologies",
+    "num":"420"
+  },
+  {
+    "City":"Saskatchewan",
+    "Program":"Mathematics, computer and information sciences",
+    "num":"186"
+  },
+  {
+    "City":"Saskatchewan",
+    "Program":"Architecture, engineering and related technologies",
+    "num":"1566"
+  },
+  {
+    "City":"Saskatchewan",
+    "Program":"Agriculture, natural resources and conservation",
+    "num":"300"
+  },
+  {
+    "City":"Saskatchewan",
+    "Program":"Health and related fields",
+    "num":"1692"
+  },
+  {
+    "City":"Saskatchewan",
+    "Program":"Personal, protective and transportation services",
+    "num":"333"
+  },
+  {
+    "City":"Saskatchewan",
+    "Program":"Other instructional programs",
+    "num":"231"
+  },
+  {
+    "City":"City",
+    "Program":"Program",
+    "num":"num"
+  },
+  {
+    "City":"Alberta",
+    "Program":"Personal improvement and leisure",
+    "num":"39"
+  },
+  {
+    "City":"Alberta",
+    "Program":"Education",
+    "num":"3003"
+  },
+  {
+    "City":"Alberta",
+    "Program":"Visual and performing arts, and communications technologies",
+    "num":"1425"
+  },
+  {
+    "City":"Alberta",
+    "Program":"Humanities",
+    "num":"1644"
+  },
+  {
+    "City":"Alberta",
+    "Program":"Social and behavioural sciences and law",
+    "num":"4740"
+  },
+  {
+    "City":"Alberta",
+    "Program":"Business, management and public administration",
+    "num":"8946"
+  },
+  {
+    "City":"Alberta",
+    "Program":"Physical and life sciences and technologies",
+    "num":"2127"
+  },
+  {
+    "City":"Alberta",
+    "Program":"Mathematics, computer and information sciences",
+    "num":"969"
+  },
+  {
+    "City":"Alberta",
+    "Program":"Architecture, engineering and related technologies",
+    "num":"5787"
+  },
+  {
+    "City":"Alberta",
+    "Program":"Agriculture, natural resources and conservation",
+    "num":"1005"
+  },
+  {
+    "City":"Alberta",
+    "Program":"Health and related fields",
+    "num":"10410"
+  },
+  {
+    "City":"Alberta",
+    "Program":"Personal, protective and transportation services",
+    "num":"1200"
+  },
+  {
+    "City":"Alberta",
+    "Program":"Other instructional programs",
+    "num":"51"
+  },
+  {
+    "City":"City",
+    "Program":"Program",
+    "num":"num"
+  },
+  {
+    "City":"British Columbia",
+    "Program":"Personal improvement and leisure",
+    "num":"1497"
+  },
+  {
+    "City":"British Columbia",
+    "Program":"Education",
+    "num":"4806"
+  },
+  {
+    "City":"British Columbia",
+    "Program":"Visual and performing arts, and communications technologies",
+    "num":"2724"
+  },
+  {
+    "City":"British Columbia",
+    "Program":"Humanities",
+    "num":"5031"
+  },
+  {
+    "City":"British Columbia",
+    "Program":"Social and behavioural sciences and law",
+    "num":"8316"
+  },
+  {
+    "City":"British Columbia",
+    "Program":"Business, management and public administration",
+    "num":"12990"
+  },
+  {
+    "City":"British Columbia",
+    "Program":"Physical and life sciences and technologies",
+    "num":"2688"
+  },
+  {
+    "City":"British Columbia",
+    "Program":"Mathematics, computer and information sciences",
+    "num":"1812"
+  },
+  {
+    "City":"British Columbia",
+    "Program":"Architecture, engineering and related technologies",
+    "num":"8502"
+  },
+  {
+    "City":"British Columbia",
+    "Program":"Agriculture, natural resources and conservation",
+    "num":"1935"
+  },
+  {
+    "City":"British Columbia",
+    "Program":"Health and related fields",
+    "num":"8802"
+  },
+  {
+    "City":"British Columbia",
+    "Program":"Personal, protective and transportation services",
+    "num":"3885"
+  },
+  {
+    "City":"British Columbia",
+    "Program":"Other instructional programs",
+    "num":"621"
+  },
+  {
+    "City":"City",
+    "Program":"Program",
+    "num":"Num"
+  },
+  {
+    "City":"Territories",
+    "Program":"Personal improvement and leisure",
+    "num":"15"
+  },
+  {
+    "City":"Territories",
+    "Program":"Education",
+    "num":"18"
+  },
+  {
+    "City":"Territories",
+    "Program":"Visual and performing arts, and communications technologies",
+    "num":"18"
+  },
+  {
+    "City":"Territories",
+    "Program":"Humanities",
+    "num":"3"
+  },
+  {
+    "City":"Territories",
+    "Program":"Social and behavioural sciences and law",
+    "num":"33"
+  },
+  {
+    "City":"Territories",
+    "Program":"Business, management and public administration",
+    "num":"126"
+  },
+  {
+    "City":"Territories",
+    "Program":"Physical and life sciences and technologies",
+    "num":"3"
+  },
+  {
+    "City":"Territories",
+    "Program":"Mathematics, computer and information sciences",
+    "num":"0"
+  },
+  {
+    "City":"Territories",
+    "Program":"Architecture, engineering and related technologies",
+    "num":"36"
+  },
+  {
+    "City":"Territories",
+    "Program":"Agriculture, natural resources and conservation",
+    "num":"12"
+  },
+  {
+    "City":"Territories",
+    "Program":"Health and related fields",
+    "num":"39"
+  },
+  {
+    "City":"Territories",
+    "Program":"Personal, protective and transportation services",
+    "num":"12"
+  },
+  {
+    "City":"Territories",
+    "Program":"Other instructional programs",
+    "num":"33"
+  }
+]

@@ -1,102 +1,152 @@
 [
   {
     "id":1,
-    "program":"Accounting/Finance"
+    "program":"Accounting/Finance",
+    "salary":50000,
+    "map":"Business, management and public administration"
   },
   {
     "id":2,
-    "program":"Administrative"
+    "program":"Administrative",
+    "salary":47500,
+    "map":"Business, management and public administration"
   },
   {
     "id":3,
-    "program":"Analyst"
+    "program":"Analyst",
+    "salary":55000,
+    "map":"Mathematics, computer and information sciences"
   },
   {
     "id":4,
-    "program":"Architecture/Drafting"
+    "program":"Architecture/Drafting",
+    "salary":107194,
+    "map":"Architecture, engineering and related technologies"
   },
   {
     "id":5,
-    "program":"Art/Design/Entertainment"
+    "program":"Art/Design/Entertainment",
+    "salary":53000,
+    "map":"Visual and performing arts, and communications technologies"
   },
   {
     "id":6,
-    "program":"Banking/Loan/Insurance"
+    "program":"Banking/Loan/Insurance",
+    "salary":85000,
+    "map":"Business, management and public administration"
   },
   {
     "id":7,
-    "program":"Beauty/Wellness"
+    "program":"Beauty/Wellness",
+    "salary":40000,
+    "map":"Personal Improvement and Leisure"
   },
   {
     "id":8,
-    "program":"Business Development/Consulting"
+    "program":"Business Development/Consulting",
+    "salary":66000,
+    "map":"Business, management and public administration"
   },
   {
     "id":9,
-    "program":"Education"
+    "program":"Education",
+    "salary":68605,
+    "map":"Education"
   },
   {
     "id":10,
-    "program":"Engineering (Non-software)"
+    "program":"Engineering (Non-software)",
+    "salary":74000,
+    "map":"Architecture, engineering and related technologies"
   },
   {
     "id":12,
-    "program":"Hospitality"
+    "program":"Hospitality",
+    "salary":55000,
+    "map":"Health and related fields"
   },
   {
     "id":13,
-    "program":"Human Resources"
+    "program":"Human Resources",
+    "salary":67500,
+    "map":"Business, management and public administration"
   },
   {
     "id":15,
-    "program":"Legal"
+    "program":"Legal",
+    "salary":42000,
+    "map":"Social and behavioural sciences and law"
   },
   {
     "id":17,
-    "program":"Marketing/Advertising/PR"
+    "program":"Marketing/Advertising/PR",
+    "salary":52000,
+    "map":"Social and behavioural sciences and law"
   },
   {
     "id":18,
-    "program":"Medical/Healthcare"
+    "program":"Medical/Healthcare",
+    "salary":60000,
+    "map":"Business, management and public administration"
   },
   {
     "id":19,
-    "program":"Non-Profit/Project Management"
+    "program":"Non-Profit/Project Management",
+    "salary":80745,
+    "map":"Business, management and public administration"
   },
   {
     "id":20,
-    "program":"Real Estate"
+    "program":"Real Estate",
+    "salary":45000,
+    "map":"Business, management and public administration"
   },
   {
     "id":23,
-    "program":"Sales/Customer Care"
+    "program":"Sales/Customer Care",
+    "salary":52000,
+    "map":"Business, management and public administration"
   },
   {
     "id":24,
-    "program":"Science/Research"
+    "program":"Science/Research",
+    "salary":50000,
+    "map":"Architecture, engineering and related technologies"
   },
   {
     "id":25,
-    "program":"Security/Law Enforcement"
+    "program":"Security/Law Enforcement",
+    "salary":30000,
+    "map":"Social and behavioural sciences and law"
   },
   {
     "id":26,
-    "program":"Senior Management"
+    "program":"Senior Management",
+    "salary":100000,
+    "map":"Business, management and public administration"
   },
   {
     "id":28,
-    "program":"Software Development/IT"
+    "program":"Software Development/IT",
+    "salary":60000,
+    "map":"Mathematics, computer and information sciences"
   },
   {
     "id":29,
-    "program":"Sports/Fitness"
+    "program":"Sports/Fitness",
+    "salary":45000,
+    "map":"Personal Improvement and Leisure"
   },
   {
     "id":30,
-    "program":"Travel/Transportation"
+    "program":"Travel/Transportation",
+    "salary":45000,
+    "map":"Personal, protective and transportation services"
   },
   {
     "id":31,
-    "program":"Writing/Editing/Publishing"
+    "program":"Writing/Editing/Publishing",
+    "salary":45000,
+    "map":"Humanities"
   }
 ]

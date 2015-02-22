@@ -1,0 +1,102 @@
+[
+  {
+    "Program":"Accounting/Finance",
+    "salary":50000
+  },
+  {
+    "Program":"Administrative",
+    "salary":47500
+  },
+  {
+    "Program":"Analyst",
+    "salary":55000
+  },
+  {
+    "Program":"Architecture/Drafting",
+    "salary":107194
+  },
+  {
+    "Program":"Art/Design/Entertainment",
+    "salary":53000
+  },
+  {
+    "Program":"Banking/Loan/Insurance",
+    "salary":85000
+  },
+  {
+    "Program":"Beauty/Wellness",
+    "salary":40000
+  },
+  {
+    "Program":"Business Development/Consulting",
+    "salary":66000
+  },
+  {
+    "Program":"Education",
+    "salary":68605
+  },
+  {
+    "Program":"Engineering (Non-software)",
+    "salary":74000
+  },
+  {
+    "Program":"Hospitality",
+    "salary":55000
+  },
+  {
+    "Program":"Human Resources",
+    "salary":67500
+  },
+  {
+    "Program":"Legal",
+    "salary":42000
+  },
+  {
+    "Program":"Marketing/Advertising/PR",
+    "salary":52000
+  },
+  {
+    "Program":"Medical/Healthcare",
+    "salary":60000
+  },
+  {
+    "Program":"Non-Profit/Project Management",
+    "salary":80745
+  },
+  {
+    "Program":"Real Estate",
+    "salary":45000
+  },
+  {
+    "Program":"Sales/Customer Care",
+    "salary":52000
+  },
+  {
+    "Program":"Science/Research",
+    "salary":50000
+  },
+  {
+    "Program":"Security/Law Enforcement",
+    "salary":30000
+  },
+  {
+    "Program":"Senior Management",
+    "salary":100000
+  },
+  {
+    "Program":"Software Development/IT",
+    "salary":60000
+  },
+  {
+    "Program":"Sports/Fitness",
+    "salary":45000
+  },
+  {
+    "Program":"Travel/Transportation",
+    "salary":45000
+  },
+  {
+    "Program":"Writing/Editing/Publishing",
+    "salary":45000
+  }
+]

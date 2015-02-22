@@ -1,9 +1,22 @@
-<ul>
-	Province
-<li ng-repeat="state in jobs.response.states">
-	{{state.name}}
-	<ul>
-		<li>Number of Jobs: {{state.numJobs}}</li>
-	</ul>
-</li>
+<div class="container">
+	<div class="row">
+		<div class="col-md-12">
+			<h1 style="text-align: center;">{{program.program}}</h1>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-12">
+			<h3 style="text-align: center;">Median Salary: <span style="font-weight: bold;">{{program.salary | currency}}</span></h3>
+		</div>
+	</div>
+	<hr>
+	<ul id="province-list" class="row">
+	<li ng-repeat="state in jobs.response.states" class="col-md-4">
+		<h3 style="font-weight: bold;">{{state.name}}</h3>
+		<ul>
+			<li>Number of Jobs: {{state.numJobs}}</li>
+			<li>Number of Graduates: {{showGrads(state.name)}}</li>
+		</ul>
+	</li>
 </ul>
+</div>

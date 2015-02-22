@@ -10,26 +10,46 @@ body{
     -o-transition:.5s ease-in-out all;
     transition:.5s ease-in-out all;
 }
-.options>.col-md-3>a>div{
-  height: 300px;
+.inner-container{
+  height: 310px;
 }
-.options>.col-md-3>a>div h3{
+.options>.col-md-3 h3{
   text-align: center;
 }
 .col-md-3{
-  border: 1px solid #e5e5e5;
+  border: 1px solid #f1f1f1;
+}
+.col-md-3:hover{
+  box-shadow: 3px 3px 10px rgba(0,0,0,0.3);
+  -webkit-transition: .5s ease-in-out all;
+    -moz-transition:.5s ease-in-out all;
+    -o-transition:.5s ease-in-out all;
+    transition:.5s ease-in-out all;
 }
 a:hover{
   text-decoration: none;
 }
-a:hover img{
+.options>.col-md-3:hover img{
   transform: scale(1.1);
 }
-a:hover img{
-  
+.text-container a:hover{
+  color: white;
+}
+.options>.col-md-3:hover .text-container{
+  transform: translateY(-30px);
+}
+.options>.col-md-3:hover .custom-btn{
+  opacity: 1;
+  transform: translateY(0);
 }
 .hero img{
   width: 500px;
+  margin: 0 auto;
+  display: block;
+}
+.hero{
+  padding: 50px 0;
+  padding-top: 0;
 }
 .custom-btn {
   display: block;
@@ -40,18 +60,42 @@ a:hover img{
   text-align: center;
   line-height: 35px;
   text-transform: uppercase;
-  -webkit-transition: all 400ms;
-  -moz-transition: all 400ms;
-  transition: 400ms;
+  -webkit-transition: .5s ease-in-out all;
+    -moz-transition:.5s ease-in-out all;
+    -o-transition:.5s ease-in-out all;
+    transition:.5s ease-in-out all;
   box-shadow: 4px 4px 0px rgba(0,0,0, .1);
   margin-bottom: 10px;
   margin-right: auto;
   margin-left: auto;
   opacity: 0;
+  transform: translateY(10px);
 }
 .text-container{
   -webkit-transition: .5s ease-in-out all;
     -moz-transition:.5s ease-in-out all;
     -o-transition:.5s ease-in-out all;
     transition:.5s ease-in-out all;
+}
+.top{
+  background-color: #7f8c8d;
+}
+nav{
+  overflow: hidden;
+  background: #7f8c8d;
+}
+nav img{
+  width: 250px;
+  float: right;
+  margin-right: 30px;
+  margin-left: 30px;
+}
+#province-list>li{
+  border-bottom: 1px solid #e5e5e5;
+}
+#province-list li{
+  list-style: none;
+}
+#province-list ul{
+  padding-left: 0;
 }
