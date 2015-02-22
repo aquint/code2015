@@ -15,6 +15,7 @@ body{
 }
 .options>.col-md-3 h3{
   text-align: center;
+  color: #337ab7 !important;
 }
 .col-md-3{
   border: 1px solid #f1f1f1;
