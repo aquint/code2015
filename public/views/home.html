@@ -1,4 +1,12 @@
-<select ng-model="selectedTestAccount" ng-options="item.Id as item.Name for item in testAccounts">
+<select ng-model="selected" ng-options="obj.program for obj in programs track by obj.id">
     <option value="">Select Program</option>
 </select>
-<div>{{data}}</div>
+<ul>
+	Province
+<li ng-repeat="state in jobs.response.states">
+	{{state.name}}
+	<ul>
+		<li>Number of Jobs: {{state.numJobs}}</li>
+	</ul>
+</li>
+</ul>

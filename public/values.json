@@ -1,0 +1,102 @@
+[
+  {
+    "id":1,
+    "program":"Accounting/Finance"
+  },
+  {
+    "id":2,
+    "program":"Administrative"
+  },
+  {
+    "id":3,
+    "program":"Analyst"
+  },
+  {
+    "id":4,
+    "program":"Architecture/Drafting"
+  },
+  {
+    "id":5,
+    "program":"Art/Design/Entertainment"
+  },
+  {
+    "id":6,
+    "program":"Banking/Loan/Insurance"
+  },
+  {
+    "id":7,
+    "program":"Beauty/Wellness"
+  },
+  {
+    "id":8,
+    "program":"Business Development/Consulting"
+  },
+  {
+    "id":9,
+    "program":"Education"
+  },
+  {
+    "id":10,
+    "program":"Engineering (Non-software)"
+  },
+  {
+    "id":12,
+    "program":"Hospitality"
+  },
+  {
+    "id":13,
+    "program":"Human Resources"
+  },
+  {
+    "id":15,
+    "program":"Legal"
+  },
+  {
+    "id":17,
+    "program":"Marketing/Advertising/PR"
+  },
+  {
+    "id":18,
+    "program":"Medical/Healthcare"
+  },
+  {
+    "id":19,
+    "program":"Non-Profit/Project Management"
+  },
+  {
+    "id":20,
+    "program":"Real Estate"
+  },
+  {
+    "id":23,
+    "program":"Sales/Customer Care"
+  },
+  {
+    "id":24,
+    "program":"Science/Research"
+  },
+  {
+    "id":25,
+    "program":"Security/Law Enforcement"
+  },
+  {
+    "id":26,
+    "program":"Senior Management"
+  },
+  {
+    "id":28,
+    "program":"Software Development/IT"
+  },
+  {
+    "id":29,
+    "program":"Sports/Fitness"
+  },
+  {
+    "id":30,
+    "program":"Travel/Transportation"
+  },
+  {
+    "id":31,
+    "program":"Writing/Editing/Publishing"
+  }
+]

@@ -6,9 +6,6 @@ var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 var request = require('request');
 
-var routes = require('./routes/index');
-var users = require('./routes/users');
-
 var app = express();
 
 // view engine setup
@@ -24,12 +21,16 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
 
-app.get('/', function(req, res, next){
-    request.get('http://api.glassdoor.com/api/api.htm?t.p=30388&t.k=jpWWyz7UblO&userip=0.0.0.0&useragent=&format=json&v=1&action=jobs-stats&returnStates=true&admLevelRequested=1', function (err, res, body) {
+app.get('/api/glassdoor/:jobId', function(req, res, next){
+    console.log(req.params.jobId);
+    request.get('http://api.glassdoor.com/api/api.htm?t.p=30388&t.k=jpWWyz7UblO&userip=0.0.0.0&useragent=&format=json&v=1&action=jobs-stats&country=Canada&returnStates=true&admLevelRequested=1&jc='+ req.params.jobId, function (err, response, body) {
+    if(err){ 
+        console.log('error');
+        return next(err);
+    }
     if (!err) {
-        var resultsObj = JSON.parse(body);
         //Just an example of how to access properties:
-        console.log(resultsObj);
+        res.send(body);
     }
     });
 });
